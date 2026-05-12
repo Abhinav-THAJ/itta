@@ -124,7 +124,7 @@ export default function ContactPage() {
 
         {/* Map Section */}
         <section className="h-[600px] w-full bg-black border-t border-white/5 relative overflow-hidden group">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=2068&auto=format&fit=crop')] bg-cover bg-center grayscale opacity-10 group-hover:opacity-20 transition-opacity duration-1000" />
+          <div className="absolute inset-0 bg-[url('/contact-bg.png')] bg-cover bg-center grayscale opacity-10 group-hover:opacity-20 transition-opacity duration-1000" />
           <div className="absolute inset-0 flex items-center justify-center">
             <Card className="bg-black/60 backdrop-blur-3xl border-white/10 p-12 rounded-[3.5rem] max-w-xl text-center space-y-8 relative overflow-hidden">
                <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary/10 blur-[80px] -z-10" />

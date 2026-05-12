@@ -56,7 +56,7 @@ export default function AboutPage() {
             >
               <div className="aspect-[4/5] rounded-[3.5rem] overflow-hidden p-1 bg-gradient-to-br from-primary/30 to-transparent">
                 <img 
-                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop" 
+                  src="/about-hero.png" 
                   alt="ITTA Boardroom" 
                   className="w-full h-full object-cover rounded-[3.3rem] brightness-50 grayscale hover:grayscale-0 transition-all duration-1000"
                 />
@@ -152,18 +152,18 @@ export default function AboutPage() {
                 <div className="absolute inset-0 bg-primary/10 blur-[120px] rounded-full -z-10" />
                 <div className="space-y-6 pt-16">
                   <div className="aspect-[3/4] rounded-[3rem] overflow-hidden border border-white/5">
-                    <img src="https://images.unsplash.com/photo-1611974714658-dd47e3a46d1f?q=80&w=2070&auto=format&fit=crop" alt="Trading floor" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
+                    <img src="/trading-floor.png" alt="Trading floor" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
                   </div>
                   <div className="aspect-square rounded-[3rem] overflow-hidden border border-white/5">
-                    <img src="https://images.unsplash.com/photo-1591696208162-a97b7dfba059?q=80&w=2070&auto=format&fit=crop" alt="Data analysis" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
+                    <img src="/data-analysis.png" alt="Data analysis" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
                   </div>
                 </div>
                 <div className="space-y-6">
                   <div className="aspect-square rounded-[3rem] overflow-hidden border border-white/5">
-                    <img src="https://images.unsplash.com/photo-1560520136-adad0cca0bb3?q=80&w=2024&auto=format&fit=crop" alt="Mentorship" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
+                    <img src="/mentorship.png" alt="Mentorship" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
                   </div>
                   <div className="aspect-[3/4] rounded-[3rem] overflow-hidden border border-white/5">
-                    <img src="https://images.unsplash.com/photo-1521791136064-7986c29597bb?q=80&w=2070&auto=format&fit=crop" alt="Meeting" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
+                    <img src="/meeting.png" alt="Meeting" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
                   </div>
                 </div>
               </div>
