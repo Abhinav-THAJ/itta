@@ -200,7 +200,7 @@ export default function CoursesPage() {
               <p className="text-white/40 text-xl max-w-2xl mx-auto">Everything you need to know about our trading ecosystem.</p>
             </div>
             
-            <Accordion className="space-y-6" type="single" collapsible>
+            <Accordion className="space-y-6">
               {faqs.map((faq, i) => (
                 <AccordionItem key={i} value={`item-${i}`} className="border border-white/5 bg-black rounded-[2rem] overflow-hidden px-10 transition-all hover:border-primary/20 group">
                   <AccordionTrigger className="hover:no-underline py-10 text-left group-data-[state=open]:text-primary transition-colors">
